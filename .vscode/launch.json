@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug natvis repro",
+            "type": "cppdbg",
+            "visualizerFile": "${workspaceFolder}/test.natvis",
+            "showDisplayString": true,
+            "MIMode": "gdb",
+            "cwd": "${workspaceFolder}",
+            "program": "${workspaceFolder}/natvis",
+            "request": "launch",
+            "preLaunchTask": "build"
+        }
+    ]
+}
